@@ -1,0 +1,51 @@
+body {
+    font-family: 'Baskervville', serif;
+    font-size: 1.25rem;
+    margin: 0;
+
+}
+
+header{
+    background-color: rgb(49, 82, 182);
+    min-height: 100vh;
+}
+nav {
+    background-color: darkslategray ;
+    width: 100%;
+    position: fixed;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header main {
+    padding-top: 70px;
+    text-align: center;
+}
+
+header img{
+    width: 25%;
+}
+
+.about-me {
+    padding: 30px 60px;
+
+}
+.projects {
+    padding: 30px 60px;
+
+}
+
+.projects img{
+    width: 30%;
+    padding: 30px;
+    padding-left: 0;
+    box-sizing: border-box;
+}
